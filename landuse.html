@@ -1,7 +1,7 @@
 <html>
 <head>
 
-  <title>Geographic Literacy Study</title>
+  <title>Loundoun County Land Use map</title>
   
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,19 +138,7 @@ map.on('click', function() {
     map.scrollWheelZoom.enable();
     }
   });
-//Legend 
-    /*  var legend = L.control({position: 'bottomright'});
-      //when adding the legend to the map...
-      legend.onAdd = function (map) {
-        //create a div for it
-          var div = L.DomUtil.create('div', 'info legend');
-          //set an image to the div content
-          div.innerHTML = "<img src=legend.png style='width: 75px;'></img>";
-          //return the div
-          return div;
-      };
-      //add the legend to the map
-      legend.addTo(map); */
+
       map.options.maxZoom = 12;map.options.minZoom = 10;
   </script>
 </body>
